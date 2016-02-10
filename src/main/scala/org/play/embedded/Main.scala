@@ -1,4 +1,4 @@
-package org.olay.embedded
+package org.play.embedded
 
 import play.api.mvc._
 import play.api.routing.sird._
