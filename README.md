@@ -11,6 +11,19 @@ sbt run
 
 Open http://localhost:9000/echo/hello in your browser
 
+# Create Uber JAR
+Just run
+```
+sbt assembly
+```
+
+Size of the JAR 36MB
+
+Run your server
+```
+java -jar target/scala-2.11/play-embedded-assembly-0.0.1.jar
+```
+
 
 
 # References

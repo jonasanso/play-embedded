@@ -1,6 +1,6 @@
-name := "Play Embedded"
+name := "play-embedded"
 
-organization := "org.stackabletraits"
+organization := "org.play"
 
 version := "0.0.1"
 
@@ -12,3 +12,11 @@ libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "2.4" % "test"
 )
 
+// META-INF discarding
+assemblyMergeStrategy in assembly := {
+    case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+    case "reference.conf" => MergeStrategy.concat
+    case x =>
+      val oldStrategy = (assemblyMergeStrategy in assembly).value
+      oldStrategy(x)
+}
