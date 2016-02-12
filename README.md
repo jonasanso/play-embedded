@@ -36,3 +36,4 @@ https://www.playframework.com/documentation/2.4.x/ScalaSirdRouter
 
 # Notes
 Make sure you run it with Java 8
+No way found to run the server in Dev mode to allow for automatic source reloading my preferred Play feature.
