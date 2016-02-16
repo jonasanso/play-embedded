@@ -1,3 +1,5 @@
 .idea
-project/
+project/project/
+project/target/
+project/.sbt*
 target/
