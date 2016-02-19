@@ -9,7 +9,10 @@ Just run
 sbt run
 ```
 
-Open http://localhost:9000/echo/hello in your browser
+Open http://localhost:9000/greeting in your browser
+
+You can also try http://localhost:9000/greeting?name=User
+
 
 # Create Uber JAR
 Just run
