@@ -27,7 +27,11 @@ Run your server
 java -jar target/scala-2.11/play-embedded-assembly-0.0.1.jar
 ```
 
-
+# Run test
+Just run
+```
+sbt test
+```
 
 # References
 This example project was created after the meetup ran by Tamer Radi https://skillsmatter.com/skillscasts/7563-exploring-play-s-new-features
