@@ -6,13 +6,14 @@
 # Demo
 Just run
 ```
-sbt run
+sbt "~ re-start"
 ```
 
 Open http://localhost:9000/greeting in your browser
 
 You can also try http://localhost:9000/greeting?name=User
 
+Code changes are watched, application will restart automatically after every change.
 
 # Create Uber JAR
 Just run
@@ -41,6 +42,11 @@ https://www.playframework.com/documentation/2.4.x/ScalaEmbeddingPlay
 
 https://www.playframework.com/documentation/2.4.x/ScalaSirdRouter
 
+# Reloading
+
+App restart after code changes is possible thanks to Spray SBT revolver
+
+https://github.com/spray/sbt-revolver
+
 # Notes
 Make sure you run it with Java 8
-No way found to run the server in Dev mode to allow for automatic source reloading my preferred Play feature.
