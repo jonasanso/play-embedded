@@ -7,9 +7,9 @@ version := "0.0.1"
 scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-netty-server" % "2.5.0",
+  "com.typesafe.play" %% "play-netty-server" % "2.5.1",
   "org.slf4j" % "slf4j-simple" % "1.7.14",
-  "com.typesafe.play" %% "play-specs2" % "2.5.0" % "test"
+  "com.typesafe.play" %% "play-specs2" % "2.5.1" % "test"
 )
 
 // META-INF discarding
