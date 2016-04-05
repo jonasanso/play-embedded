@@ -6,6 +6,8 @@ version := "0.0.1"
 
 scalaVersion := "2.11.7"
 
+cancelable in Global := true
+
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-netty-server" % "2.5.1",
   "org.slf4j" % "slf4j-simple" % "1.7.14",
